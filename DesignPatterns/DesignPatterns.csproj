@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FluentBuilder\" />
+    <None Remove="Builder\" />
+    <None Remove="StepwiseBuilder\" />
+    <None Remove="FunctionalBuilder\" />
+    <None Remove="Faceted\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FluentBuilder\" />
+    <Folder Include="Builder\" />
+    <Folder Include="StepwiseBuilder\" />
+    <Folder Include="FunctionalBuilder\" />
+    <Folder Include="Faceted\" />
+  </ItemGroup>
+</Project>
